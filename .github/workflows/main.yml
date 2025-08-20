@@ -1,0 +1,14 @@
+[app]
+title = SignLanguageTranslator
+package.name = signlangtrans
+package.domain = org.example
+source.include_exts = py,png,jpg,kv
+source.exclude_exts =
+version = 0.1
+requirements = python3,mediapipe,opencv-python,numpy
+android.permissions = CAMERA,INTERNET
+orientation = portrait
+entrypoint = pyth.py
+[buildozer]
+log_level = 2
+warn_on_root = 1  
